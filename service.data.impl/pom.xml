@@ -35,7 +35,7 @@
     <dependency>
       <groupId>com.amazonaws</groupId>
       <artifactId>aws-java-sdk-secretsmanager</artifactId>
-      <version>1.11.524</version>
+      <version>1.11.534</version>
       <exclusions>
         <exclusion>
           <artifactId>jackson-databind</artifactId>
@@ -155,7 +155,7 @@
     <dependency>
       <groupId>org.javers</groupId>
       <artifactId>javers-spring-jpa</artifactId>
-      <version>5.3.2</version>
+      <version>5.3.5</version>
       <exclusions>
         <exclusion>
           <artifactId>slf4j-api</artifactId>
@@ -226,7 +226,7 @@
     <dependency>
       <groupId>io.github.classgraph</groupId>
       <artifactId>classgraph</artifactId>
-      <version>4.8.21</version>
+      <version>4.8.24</version>
     </dependency>
     <dependency>
       <groupId>org.apache.httpcomponents</groupId>
@@ -656,27 +656,27 @@
     <dependency>
       <groupId>org.jboss.narayana.jta</groupId>
       <artifactId>jta</artifactId>
-      <version>5.9.3.Final</version>
+      <version>5.9.5.Final</version>
     </dependency>
     <dependency>
       <groupId>org.jboss.narayana.jta</groupId>
       <artifactId>jdbc</artifactId>
-      <version>5.9.3.Final</version>
+      <version>5.9.5.Final</version>
     </dependency>
     <dependency>
       <groupId>org.jboss.narayana.jta</groupId>
       <artifactId>jms</artifactId>
-      <version>5.9.3.Final</version>
+      <version>5.9.5.Final</version>
     </dependency>
     <dependency>
       <groupId>org.jboss.narayana.jts</groupId>
       <artifactId>narayana-jts-integration</artifactId>
-      <version>5.9.3.Final</version>
+      <version>5.9.5.Final</version>
     </dependency>
     <dependency>
       <groupId>org.jboss.narayana.arjunacore</groupId>
       <artifactId>arjuna</artifactId>
-      <version>5.9.3.Final</version>
+      <version>5.9.5.Final</version>
       <exclusions>
         <exclusion>
           <artifactId>jconsole</artifactId>
@@ -687,7 +687,7 @@
     <dependency>
       <groupId>org.jboss.narayana.arjunacore</groupId>
       <artifactId>txoj</artifactId>
-      <version>5.9.3.Final</version>
+      <version>5.9.5.Final</version>
       <exclusions>
         <exclusion>
           <artifactId>jconsole</artifactId>
@@ -728,7 +728,7 @@
     <dependency>
       <groupId>org.apache.commons</groupId>
       <artifactId>commons-pool2</artifactId>
-      <version>2.6.1</version>
+      <version>2.6.2</version>
     </dependency>
     <dependency>
       <groupId>org.slf4j</groupId>

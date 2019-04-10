@@ -103,10 +103,10 @@
     <sonar.zaproxy.reportPath></sonar.zaproxy.reportPath>
     <maven.javadoc.failOnError>false</maven.javadoc.failOnError>
     <!-- <cia.project.versions.spring>5.1.4.RELEASE/5.1.5.BUILD-SNAPSHOT</cia.project.versions.spring> -->
-    <cia.project.versions.spring>5.1.5.RELEASE</cia.project.versions.spring>
+    <cia.project.versions.spring>5.2.0.M1</cia.project.versions.spring>
     <!-- <cia.project.versions.spring.security>5.1.4.RELEASE/5.2.1.M1/5.1.4.BUILD-SNAPSHOT</cia.project.versions.spring.security> -->
     <cia.project.versions.spring.security>5.1.4.RELEASE</cia.project.versions.spring.security>
-    <cia.project.versions.aspectj>1.9.3.RC1</cia.project.versions.aspectj>
+    <cia.project.versions.aspectj>1.9.3</cia.project.versions.aspectj>
     <cia.project.versions.javassist>3.24.1-GA</cia.project.versions.javassist>
     <cia.project.versions.asm>7.1</cia.project.versions.asm>
     <cia.project.versions.cglib>3.2.10</cia.project.versions.cglib>
@@ -122,17 +122,17 @@
     <cia.project.versions.hibernate.jpa2>1.0.2</cia.project.versions.hibernate.jpa2>
     <cia.project.versions.hibernate.validator>6.1.0.Alpha4</cia.project.versions.hibernate.validator>
     <cia.project.versions.hibernate.build.validator>6.1.0.Alpha4</cia.project.versions.hibernate.build.validator>
-    <cia.project.versions.bytebuddy>1.9.11</cia.project.versions.bytebuddy>
+    <cia.project.versions.bytebuddy>1.9.12</cia.project.versions.bytebuddy>
     <cia.project.versions.h2>1.4.199</cia.project.versions.h2>
     <cia.project.versions.postgresql>42.2.5</cia.project.versions.postgresql>
     <cia.project.versions.ehcache>2.10.5</cia.project.versions.ehcache>
-    <cia.project.versions.poi>4.0.1</cia.project.versions.poi>
+    <cia.project.versions.poi>4.1.0</cia.project.versions.poi>
     <cia.project.versions.quartz>2.1.5</cia.project.versions.quartz>
     <cia.project.versions.ant>1.10.5</cia.project.versions.ant>
     <cia.project.versions.junit>4.13-beta-2</cia.project.versions.junit>
     <cia.project.versions.dbunit>2.6.0</cia.project.versions.dbunit>
     <cia.project.versions.trove>3.0.3</cia.project.versions.trove>
-    <cia.project.versions.xmlbeans>3.0.2</cia.project.versions.xmlbeans>
+    <cia.project.versions.xmlbeans>3.1.0</cia.project.versions.xmlbeans>
     <cia.project.versions.jdom>2.0.6</cia.project.versions.jdom>
     <cia.project.versions.plexus.utils>3.2.0</cia.project.versions.plexus.utils>
     <cia.project.versions.jaxb2.commons>0.12.0</cia.project.versions.jaxb2.commons>
@@ -154,12 +154,12 @@
     <cia.project.versions.jackson>2.9.8</cia.project.versions.jackson>
     <cia.project.versions.xerces>2.12.0.SP02-redhat-00001</cia.project.versions.xerces>
     <cia.project.versions.xmlapis>1.4.01</cia.project.versions.xmlapis>
-    <cia.project.versions.jetty>9.4.15.v20190215</cia.project.versions.jetty>
+    <cia.project.versions.jetty>9.4.16.v20190409</cia.project.versions.jetty>
     <cia.project.versions.servlet.api>3.1.0</cia.project.versions.servlet.api>
     <!-- <cia.project.versions.jetty>10.0.0-SNAPSHOT</cia.project.versions.jetty>
 	<cia.project.versions.servlet.api>4.0.0</cia.project.versions.servlet.api> -->
     <cia.project.versions.javamelody>1.76.0</cia.project.versions.javamelody>
-    <cia.project.versions.vaadin>8.7.1</cia.project.versions.vaadin>
+    <cia.project.versions.vaadin>8.7.2</cia.project.versions.vaadin>
     <cia.project.versions.vaadin.gwt.user>2.8.2</cia.project.versions.vaadin.gwt.user>
     <cia.project.versions.vaadin.cssparser>0.9.27</cia.project.versions.vaadin.cssparser>
     <cia.project.versions.ehcache.web>2.0.4</cia.project.versions.ehcache.web>
@@ -173,7 +173,7 @@
       <dependency>
         <groupId>com.ibm.icu</groupId>
         <artifactId>icu4j</artifactId>
-        <version>63.1</version>
+        <version>64.1</version>
       </dependency>
       <dependency>
         <groupId>org.apache.ant</groupId>
@@ -1012,7 +1012,7 @@
             <dependency>
               <groupId>org.codehaus.mojo</groupId>
               <artifactId>extra-enforcer-rules</artifactId>
-              <version>1.1</version>
+              <version>1.2</version>
             </dependency>
             <dependency>
               <groupId>org.sonatype.ossindex.maven</groupId>

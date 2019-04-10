@@ -381,7 +381,7 @@
     <dependency>
       <groupId>com.amazonaws</groupId>
       <artifactId>aws-java-sdk-cloudwatch</artifactId>
-      <version>1.11.524</version>
+      <version>1.11.534</version>
       <exclusions>
         <exclusion>
           <artifactId>jackson-databind</artifactId>
@@ -408,7 +408,7 @@
     <dependency>
       <groupId>com.amazonaws</groupId>
       <artifactId>aws-java-sdk-logs</artifactId>
-      <version>1.11.524</version>
+      <version>1.11.534</version>
       <exclusions>
         <exclusion>
           <artifactId>jackson-databind</artifactId>
@@ -440,7 +440,7 @@
     <dependency>
       <groupId>com.amazonaws</groupId>
       <artifactId>aws-java-sdk-ec2</artifactId>
-      <version>1.11.524</version>
+      <version>1.11.534</version>
       <exclusions>
         <exclusion>
           <artifactId>jackson-databind</artifactId>
@@ -856,7 +856,7 @@
     <dependency>
       <groupId>io.github.bonigarcia</groupId>
       <artifactId>webdrivermanager</artifactId>
-      <version>3.3.0</version>
+      <version>3.4.0</version>
       <scope>test</scope>
       <exclusions>
         <exclusion>
@@ -1032,7 +1032,7 @@
     <dependency>
       <groupId>com.github.librepdf</groupId>
       <artifactId>openpdf</artifactId>
-      <version>1.2.11</version>
+      <version>1.2.16</version>
       <exclusions>
         <exclusion>
           <artifactId>bcpkix-jdk15on</artifactId>
@@ -1184,7 +1184,7 @@
     <dependency>
       <groupId>com.ibm.icu</groupId>
       <artifactId>icu4j</artifactId>
-      <version>63.1</version>
+      <version>64.1</version>
     </dependency>
     <dependency>
       <groupId>org.apache.ant</groupId>
