@@ -149,17 +149,17 @@
     <cia.project.versions.jaxb2.fluent.api>3.0</cia.project.versions.jaxb2.fluent.api>
     <cia.project.versions.maven>3.3.9</cia.project.versions.maven>
     <cia.project.versions.activemq>5.15.6</cia.project.versions.activemq>
-    <cia.project.versions.httpclient>4.5.7</cia.project.versions.httpclient>
+    <cia.project.versions.httpclient>4.5.8</cia.project.versions.httpclient>
     <cia.project.versions.guava>27.1-jre</cia.project.versions.guava>
     <cia.project.versions.jackson>2.9.8</cia.project.versions.jackson>
     <cia.project.versions.xerces>2.12.0.SP02-redhat-00001</cia.project.versions.xerces>
     <cia.project.versions.xmlapis>1.4.01</cia.project.versions.xmlapis>
-    <cia.project.versions.jetty>9.4.16.v20190409</cia.project.versions.jetty>
+    <cia.project.versions.jetty>9.4.16.v20190411</cia.project.versions.jetty>
     <cia.project.versions.servlet.api>3.1.0</cia.project.versions.servlet.api>
     <!-- <cia.project.versions.jetty>10.0.0-SNAPSHOT</cia.project.versions.jetty>
 	<cia.project.versions.servlet.api>4.0.0</cia.project.versions.servlet.api> -->
     <cia.project.versions.javamelody>1.76.0</cia.project.versions.javamelody>
-    <cia.project.versions.vaadin>8.7.2</cia.project.versions.vaadin>
+    <cia.project.versions.vaadin>8.8.0.beta1</cia.project.versions.vaadin>
     <cia.project.versions.vaadin.gwt.user>2.8.2</cia.project.versions.vaadin.gwt.user>
     <cia.project.versions.vaadin.cssparser>0.9.27</cia.project.versions.vaadin.cssparser>
     <cia.project.versions.ehcache.web>2.0.4</cia.project.versions.ehcache.web>
@@ -183,7 +183,7 @@
       <dependency>
         <groupId>org.apache.commons</groupId>
         <artifactId>commons-lang3</artifactId>
-        <version>3.8.1</version>
+        <version>3.9</version>
       </dependency>
       <dependency>
         <groupId>commons-io</groupId>
@@ -238,7 +238,7 @@
       <dependency>
         <groupId>org.jboss.logging</groupId>
         <artifactId>jboss-logging</artifactId>
-        <version>3.3.2.Final-redhat-00001</version>
+        <version>3.4.0.Final</version>
       </dependency>
       <dependency>
         <groupId>org.jvnet.hyperjaxb3</groupId>
@@ -682,7 +682,7 @@
             <dependency>
               <groupId>org.apache.commons</groupId>
               <artifactId>commons-lang3</artifactId>
-              <version>3.8.1</version>
+              <version>3.9</version>
             </dependency>
             <dependency>
               <groupId>org.codehaus.plexus</groupId>
